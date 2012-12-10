@@ -24,7 +24,7 @@ Rosie.UI.TextArea = Rosie.UI.Component.extend( {
 	*/
 	render: function() {
 		var me = this,		
-		el = me.make(me.tagName, me.attributes, me.text);
+		el = me.make(me.tagName, me.attr, me.text);
 		
 		me.el=el;		
 		me.setElement(me.el);		

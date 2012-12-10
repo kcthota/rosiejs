@@ -21,7 +21,7 @@ Rosie.UI.IconSprite = Rosie.UI.Component.extend( {
 	*/	
 	render: function() {
 		var me = this,
-		el = me.make(me.tagName, me.attributes);
+		el = me.make(me.tagName, me.attr);
 		
 		me.el=el;		
 		me.setElement(me.el);

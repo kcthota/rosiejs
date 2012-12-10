@@ -47,11 +47,10 @@ Rosie.UI.NavItem = Rosie.UI.Component.extend( {
 	render: function() {	
 		var me = this, 
 		btnDom=this._resolveTpl();	
-
 		me.el=btnDom;		
 		me.setElement(me.el);
 		
-		me.$el.attr(me.attributes);
+		me.$el.attr(me.attr);
 		me.addClass(me.cls);							
 		
 		if(me.menu) {

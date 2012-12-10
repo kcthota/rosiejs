@@ -54,7 +54,7 @@ Rosie.UI.Radio = Rosie.UI.Component.extend( {
 		me.el=btnDom;		
 		me.setElement(me.el);
 		
-		me.$el.attr(me.attributes);			
+		me.$el.attr(me.attr);			
 		me.addClass(me.cls);
 		
 		me.$el.children('input#'+me.id+"-input").attr(me.inputAttributes);		
