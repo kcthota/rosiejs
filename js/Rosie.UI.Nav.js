@@ -22,7 +22,7 @@ Rosie.UI.Nav = Rosie.UI.Component.extend( {
 	
 	stacked:false, 
 	
-	tpl: "<ul id=\"{{id}}\" class=\"nav nav-{{type}} {{#if stacked}}nav-stacked{{/if}}\"></ul>",
+	tpl: "<ul id=\"{{id}}\" class=\"nav{{#if type}} nav-{{type}} {{/if}} {{#if stacked}} nav-stacked{{/if}}\"></ul>",
 	
 	/**
 	* @function 
